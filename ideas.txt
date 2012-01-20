@@ -1,0 +1,47 @@
+Tiny Ideas
+
+Actions:
+- reproduce (reproduce with nearest similar sibling)
+- gather (if food nearby or life low)
+- attack (attack if near and not similar)
+
+Mods (-9 to +9):
+- strength (helps in attack)
+- armor (helps in defence)
+- vitality (life bonus)
+- endurance (energy bonus+energy recovery rate)
+
+
+
+Stats:
+- Life (dies at 0, has max, loses when attacked or with hunger)
+- Energy (cant perform actions at 0, has max, slowly restores over time)
+- Attack
+- Defence
+
+
+Tiny Types:
+Life = color displayed
+Energy = character displayed
+
+
+Initial Life Formula:
+max. life = 100+(V*10)
+life drain rate = 5-(E/2)
+
+Initial Energy Formula:
+max. energy = 100+(E*10)
+energy recovery rate = 10+E
+
+Initial Attack Formula:
+attack = 10+S
+
+Initial Defence Formula:
+defence = 10+A
+
+Tiny Genetic Sequence:
+S A V E
+
+
+
+Thing's Picture and Color:
